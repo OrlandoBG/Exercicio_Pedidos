@@ -15,8 +15,8 @@ public class Order {
 	private Date moment;
 	private OrderStatus status;
 	
-	List<OrderItem> items = new ArrayList<>();
-	Client client = new Client();
+	private List<OrderItem> items = new ArrayList<>();
+	private Client client = new Client();
 	
 	public Order() {
 		

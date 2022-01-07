@@ -5,7 +5,7 @@ public class OrderItem {
 	private Integer quantity;
 	private Double price;
 	
-	Product product = new Product();
+	private Product product = new Product();
 	
 	public OrderItem(){
 		
